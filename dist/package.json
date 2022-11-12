@@ -1,0 +1,11 @@
+{
+  "name": "vue-socket-kevin.io",
+  "version": "1.1.6-beta",
+  "description": "socket.io implementation for Vue.js and Vuex",
+  "main": "vue-socketio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhengyongkai <https://github.com/zhengyongkai>",
+  "license": "ISC"
+}

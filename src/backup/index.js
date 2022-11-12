@@ -25,8 +25,7 @@ export default class VueSocketIO {
    * @param Vue
    */
   install(Vue) {
-    const version = Number(Vue.version.split('.')[0]);
-    if (version >= 3) {
+    if (getVersion() >= 3) {
       Vue.provide('socket', this.io);
       Vue.provide('vueSocketIo', this);
     } else {
